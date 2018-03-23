@@ -11,6 +11,6 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/WordpressMagicBoilerplate/Widgets/MagicWidget.php:18
-msgid "My widget "
+#: bro_excerpt_require.php:15
+msgid "Without an excerpt, the record can only be saved as a draft."
 msgstr ""

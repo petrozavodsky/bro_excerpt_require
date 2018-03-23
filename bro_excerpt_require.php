@@ -12,7 +12,7 @@ function bro_excerpt_require_admin_notices() {
 		return;
 	}
 
-	$message = __('Без отрывка запись может быть сохранена только в качестве черновика', 'bro_excerpt_require');
+	$message = __('Without an excerpt, the record can only be saved as a draft.', 'bro_excerpt_require');
 
 	echo '<div id="notice" class="notice notice-warning is-dismissible"> <p>' . $message . '</p>';
 	echo '<button class="notice-dismiss" type="button">';
