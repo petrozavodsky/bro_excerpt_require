@@ -9,16 +9,16 @@ Version: 1.0.0
 
 function bro_excerpt_require_update_post( $ID, $post ) {
 
-	if ( empty( wp_strip_all_tags( $post['post_excerpt'], true ) ) ) {
+	if ( empty( wp_strip_all_tags( $post->post_excerpt, true ) ) ) {
 
 
 		$post_types = apply_filters( 'bro_excerpt_require_update_post__post_types', [ 'post' ] );
 
 		$statuses = apply_filters( 'bro_excerpt_require_update_post__allow_statuses', [ 'pending', 'pending', 'auto-draft' ] );
 
-		if ( in_array( $post['post_type'], $post_types ) ) {
+		if ( in_array( $post->post_type, $post_types ) ) {
 
-			if ( ! in_array( $post['post_status'], $statuses ) ) {
+			if ( ! in_array( $post->post_status, $statuses ) ) {
 				remove_action( 'save_post', 'bro_excerpt_require_update_post' );
 
 
