@@ -4,6 +4,7 @@ Plugin Name: Bro Excerpt Require
 Plugin URI: https://alkoweb.ru
 Author: petrozavodsky
 Author URI: https://alkoweb.ru
+Requires PHP: 5.4
 Version: 1.0.0
 License: GPLv2 or later
 Text Domain: bro_excerpt_require
