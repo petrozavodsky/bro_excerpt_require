@@ -44,7 +44,7 @@ function bro_excerpt_require_admin_notices() {
 		return;
 	}
 
-	$message = "Без отрывка запись может быть только черновиком";
+	$message = "Без отрывка запись может быть сохранена в качестве черновика";
 
 
 	echo '<div id="notice" class="notice notice-warning is-dismissible"> <p>' . $message . '</p>';
