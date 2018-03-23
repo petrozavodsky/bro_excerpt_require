@@ -44,7 +44,7 @@ function bro_excerpt_require_admin_notices() {
 		return;
 	}
 
-	$message = "Без отрывка запись может быть сохранена в качестве черновика";
+	$message = __('Без отрывка запись может быть сохранена в качестве черновика', 'bro_excerpt_require');
 
 
 	echo '<div id="notice" class="notice notice-warning is-dismissible"> <p>' . $message . '</p>';
@@ -55,3 +55,12 @@ function bro_excerpt_require_admin_notices() {
 }
 
 add_action( 'admin_notices', 'bro_excerpt_require_admin_notices' );
+
+
+
+function bro_excerpt_require_load_textdomain(){
+	$mo_file_path = dirname(__FILE__) . '/lang/'. get_locale() . '.mo';
+	load_textdomain('bro_excerpt_require', $mo_file_path );
+}
+
+add_action('plugins_loaded', 'bro_excerpt_require_load_textdomain');
