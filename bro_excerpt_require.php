@@ -8,13 +8,13 @@ Requires PHP: 5.4
 Version: 1.0.0
 License: GPLv2 or later
 Text Domain: bro_excerpt_require
+Description: After activation, the plugin moves the post to drafts if excerpt is empty when saving it
 */
 
 function bro_excerpt_require_admin_notices() {
 	if ( ! isset( $_GET[ 'empty_excerpt' ] ) ) {
 		return;
 	}
-
 	$message = __('Without an excerpt, the record can only be saved as a draft.', 'bro_excerpt_require');
 
 	echo '<div id="notice" class="notice notice-warning is-dismissible"> <p>' . $message . '</p>';

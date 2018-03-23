@@ -12,8 +12,6 @@ The plugin is designed not to forget to add excerpt.
 
 After activation, the plugin moves the post to drafts if excerpt is empty when saving it
 
-PS: You'll need an [Akismet.com API key](https://akismet.com/get/) to use it.  Keys are free for personal blogs; paid subscriptions are available for businesses and commercial sites.
-
 == Installation ==
 
 Upload the  plugin to your blog, Activate it.
