@@ -5,6 +5,8 @@ Plugin URI: https://alkoweb.ru
 Author: petrozavodsky
 Author URI: https://alkoweb.ru
 Version: 1.0.0
+License: GPLv2 or later
+Text Domain: bro_excerpt_require
 */
 
 function bro_excerpt_require_admin_notices() {
