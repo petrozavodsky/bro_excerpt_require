@@ -40,7 +40,7 @@ function bro_excerpt_require_update_post( $ID, $post ) {
 add_action( 'save_post', 'bro_excerpt_require_update_post', 10, 2 );
 
 function bro_excerpt_require_admin_notices() {
-	if ( ! isset( $_GET[ $this->query_param ] ) ) {
+	if ( ! isset( $_GET[ 'empty_excerpt' ] ) ) {
 		return;
 	}
 
