@@ -7,7 +7,7 @@ Author URI: https://alkoweb.ru
 Version: 1.0.0
 */
 
-function bro_excerpt_require_update_post( $ID, $post, $update ) {
+function bro_excerpt_require_update_post( $ID, $post ) {
 
 	if ( empty( wp_strip_all_tags( $post['post_excerpt'], true ) ) ) {
 
