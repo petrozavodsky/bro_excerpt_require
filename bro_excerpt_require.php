@@ -30,5 +30,5 @@ function bro_excerpt_require_update_post( $data ) {
 }
 
 
-add_action( 'wp_insert_post_data', [ $this, 'update_post' ], 1, 1 );
+add_action( 'wp_insert_post_data', 'bro_excerpt_require_update_post', 1, 1 );
 
