@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Bro Excerpt Require
-Plugin URI: https://alkoweb.ru
+Plugin URI: https://alkoweb.ru/bro_excerpt_require
 Author: petrozavodsky
 Author URI: https://alkoweb.ru
 Requires PHP: 5.4
