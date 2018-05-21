@@ -1,7 +1,7 @@
 === Bro Excerpt Require ===
 Contributors: vovasik, petrozavodsky
 Tags: writing, publishing
-Requires at least: 1.0.0
+Requires at least: 1.0.1
 Tested up to: 4.9.6
 Stable tag: 4.0.3
 License: GPLv2 or later
