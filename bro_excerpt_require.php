@@ -2,10 +2,10 @@
 /*
 Plugin Name: Bro Excerpt Require
 Plugin URI: https://alkoweb.ru/bro_excerpt_require
-Author: petrozavodsky
+Author: Vovasik ,Petrozavodsky
 Author URI: https://alkoweb.ru
 Requires PHP: 5.4
-Version: 1.0.0
+Version: 1.0.1
 License: GPLv2 or later
 Text Domain: bro_excerpt_require
 Description: After activation, the plugin moves the post to drafts if excerpt is empty when saving it
